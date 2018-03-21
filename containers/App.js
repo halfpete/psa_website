@@ -7,20 +7,28 @@ export default class App extends Component {
     render () {
         return (
             <div>
-                <h1 id="peter_ahn">Peter Ahn</h1>
-                <h1 id="about">About</h1>
-                <h1 id="contact">Contact</h1>
-
-                <div>
-                    <img src="../images/fauna.jpg" id="wallpaper_header"/>
+                <div class="header">
+                    <h1 id="peter_ahn">Peter Ahn</h1>
+                    <h1 id="about">About</h1>
+                    <h1 id="contact">Contact</h1>
                 </div>
-                <div id="grid_padding">
-                    <div class="row">
+                <body>
+                    <div>
+                        <img src="../images/americana.png" id="wallpaper_header"/>
+                    </div>
+                    <div class="row" id="grid_padding">
                         <div class="column">
-                            <img src="../images/fauna.jpg" id="grid_image"/>
+                            <img src="../images/Untitled-1.jpg" id="grid_image"/>
+                            <img src="../images/americana.png" id="grid_image"/>
+                            <img src="../images/Untitled-1.jpg" id="grid_image"/>
+                        </div>
+                        <div class="column">
+                            <img src="../images/Untitled-1.jpg" id="grid_image"/>
+                            <img src="../images/Untitled-1.jpg" id="grid_image"/>
+                            <img src="../images/Untitled-1.jpg" id="grid_image"/>
                         </div>
                     </div>
-                </div>
+                </body>
             </div>
         )
     }

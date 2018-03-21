@@ -1,35 +1,50 @@
+#outer {
+    position: fixed;
+}
+
+.header {
+    height: 100px;
+    width: 400px; /** Use 100% to fill the width of the page **/
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: rgba(0,0,255,0.2);
+}
+
 #peter_ahn {
 	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-	font-size: 26px;
+	font-size: 28px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 26.4px;
-    position: absolute;
+    position: fixed;
     top: 8px;
     left: 50px;
 }
 
 #about {
 	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 26.4px;
-    position: absolute;
+    position: fixed;
     top: 8px;
-    right: 110px;
+    right: 120px;
 }
 
 #contact {
 	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 26.4px;
-    position: absolute;
+    position: fixed; 
     top: 8px;
     right: 50px;
 }
@@ -38,33 +53,39 @@
     position: absolute;
     top: 80px;
     width: 95%;
-    height: 45%;
+    height: 55%;
     left: 50px;
     right: 50px;
 }
 
 #grid_image {
-    width: 20%;
-    height: 20%;
+    width: 40%;
+    height: 40%;
+    padding: 20px;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px
 }
 
 #grid_padding {
-    top: 400px;
-    left: 50px;
-    right: 50px;
+    position: relative;
+    top: 950px;
+    left: 12px;
+    right: 12px;
 }
 
 .row {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 4px;
+  padding: 0 20px;
 }
 
 /* Create four equal columns that sits next to each other */
 .column {
   flex: 25%;
   max-width: 25%;
-  padding: 0 4px;
+  padding: 0 20px;
 }
 
 .column img {
@@ -87,4 +108,10 @@
     flex: 100%;
     max-width: 100%;
   }
+}
+
+body {
+    -moz-transform: scale(0.8, 0.8); /* Moz-browsers */
+    zoom: 0.8; /* Other non-webkit browsers */
+    zoom: 80%; /* Webkit browsers */
 }
