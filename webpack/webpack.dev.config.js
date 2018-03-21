@@ -15,8 +15,13 @@ module.exports = {
 				loader: 'babel-loader'
 			},{
 				test: /\.less$/,
-				loaders: ["style-loader", "css-loader", "less-loader"]
-			}
+                loaders: ["style-loader", 
+                    "css-loader", "less-loader"]
+            },
+            {
+                test: /\.css$/,
+                loader:[ 'style-loader', 'css-loader' ]
+            }
 		]
     },
     // Where the bundle.js file gets outputted.

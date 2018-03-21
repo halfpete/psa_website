@@ -28,7 +28,7 @@
         ]
     },
     "dependencies": {
-        "css-loader": "^0.28.5",
+        "css-loader": "^0.28.11",
         "less-loader": "^4.0.5",
         "react": "^15.6.2",
         "react-bootstrap": "^0.32.1",

@@ -1,0 +1,35 @@
+#peter_ahn {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 26px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+    position: absolute;
+    top: 8px;
+    left: 20px;
+}
+
+#about {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+    position: absolute;
+    top: 8px;
+    right: 80px;
+}
+
+#contact {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+    position: absolute;
+    top: 8px;
+    right: 20px;
+}
