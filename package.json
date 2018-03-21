@@ -16,7 +16,7 @@
     "bugs": {
         "url": "https://github.com/plee831/psa_website/issues"
     },
-    "homepage": "https://github.com/plee831/psa_website#readme",
+    "homepage": "https://github.com/plee831/psa_website",
     "babel": {
         "presets": [
             "es2015",
@@ -51,6 +51,7 @@
         "babel-preset-react": "^6.24.1",
         "babel-preset-stage-0": "^6.24.1",
         "babel-register": "^6.26.0",
+        "gh-pages": "^1.1.0",
         "less": "^2.7.2",
         "webpack-dev-server": "^2.7.1"
     }
