@@ -1,6 +1,5 @@
 # psa_website
 Personal website for Peter Ahn.
-[psahn.com](psahn.com)
 
 ## Deving
 `npm run dev`
