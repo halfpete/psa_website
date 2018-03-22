@@ -26,8 +26,9 @@ module.exports = {
     },
     // Where the bundle.js file gets outputted.
     output: {
-        path: parentDir + '/dist',
-        filename: 'bundle.js'
+        path: parentDir,
+        filename: 'bundle.js',
+        publicPath: '/',
     },
     // dev server configurations.
     devServer: {
