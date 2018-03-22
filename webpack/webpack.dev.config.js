@@ -26,7 +26,7 @@ module.exports = {
     },
     // Where the bundle.js file gets outputted.
     output: {
-        path: parentDir,
+        path: path.resolve(__dirname, '/'),
         filename: 'bundle.js',
         publicPath: '/',
     },
