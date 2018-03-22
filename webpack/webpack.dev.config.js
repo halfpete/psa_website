@@ -7,6 +7,11 @@ module.exports = {
 	entry: [
 		path.join(parentDir, 'index.js')
     ],
+    context: __dirname,
+    node: {
+        __filename: true,
+        __dirname: true
+    },
     module: {
         // Bundles source files.
 		loaders: [{
@@ -26,9 +31,8 @@ module.exports = {
     },
     // Where the bundle.js file gets outputted.
     output: {
-        path: path.resolve(__dirname, '/'),
-        filename: 'bundle.js',
-        publicPath: '/',
+        path: parentDir + '/dist',
+        filename: 'bundle.js'
     },
     // dev server configurations.
     devServer: {
