@@ -12,6 +12,7 @@ module.exports = {
         __filename: true,
         __dirname: true
     },
+    target: 'node',
     module: {
         // Bundles source files.
 		loaders: [{
