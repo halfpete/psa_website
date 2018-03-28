@@ -8,7 +8,7 @@ module.exports = [
     name: 'rendering',
     target: 'node',
     entry: {
-      'index.html': './my-app/src/App.js',
+      'index.html': './index.html',
     },
     output: {
       path: path.resolve('build'),
