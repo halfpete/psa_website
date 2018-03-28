@@ -16,5 +16,5 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "http://plee831.github.io/psa_website"
+  "homepage": "https://plee831.github.io/psa_website"
 }
