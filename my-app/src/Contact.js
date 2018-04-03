@@ -23,7 +23,30 @@ class Contact extends Component {
             </Link>
           </h1>
         </div>
-        <div id="contact_text">Contact me plox</div>
+        <div id="contact_text">
+          <form
+            action="mailto:someone@example.com"
+            method="post"
+            enctype="text/plain"
+          >
+            <div>
+              Name:
+              <input type="text" name="name" />
+            </div>
+            <div>
+              E-mail:
+              <input type="text" name="mail" />
+            </div>
+            <div>
+              Comment:
+              <input type="text" name="comment" className="set-width" />
+            </div>
+            <div>
+              <input type="submit" value="Send" />
+              <input type="reset" value="Reset" />
+            </div>
+          </form>
+        </div>
       </div>
     );
   }
