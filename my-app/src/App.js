@@ -52,6 +52,13 @@ class App extends Component {
             <a href="mailto:psa395@gmail.com">psa395@gmail.com</a>
           </div>
           <div>818.669.0174</div>
+          <div>
+            <link
+              rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+            />
+            <a href="#" class="fa fa-instagram" />
+          </div>
         </div>
       </div>
     );
