@@ -25,7 +25,8 @@ class About extends Component {
           </h1>
         </div>
         <div id="about_text">
-          filler text ahfoahjfiuhaduifhsdiouhvisbnvijsbnvi
+          Hi, my name is Peter Ahn. I graduated Art Center c/o 2018. I love to
+          draw bread.
           <div>
             <a href={resume} target="_blank">
               Resume Available Here
