@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import './App.css';
+import resume from './images/resume.png';
 
 class About extends Component {
   render() {
@@ -23,7 +24,14 @@ class About extends Component {
             </Link>
           </h1>
         </div>
-        <div id="about_text">Why do I only get v1 boa?</div>
+        <div id="about_text">
+          filler text ahfoahjfiuhaduifhsdiouhvisbnvijsbnvi
+          <div>
+            <a href={resume} target="_blank">
+              Resume Available Here
+            </a>
+          </div>
+        </div>
       </div>
     );
   }
