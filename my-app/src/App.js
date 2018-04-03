@@ -5,6 +5,20 @@ import americana from './images/americana.png';
 import fauna from './images/fauna.jpg';
 import untitled_1 from './images/Untitled-1.jpg';
 import './App.css';
+//<div className="body">
+//<div className="row" id="grid_padding">
+//<div className="column">
+//<img src={untitled_1} id="grid_image" alt="untitled_1" />
+//<img src={fauna} id="grid_image" alt="fauna" />
+//<img src={fauna} id="grid_image" alt="fauna" />
+//</div>
+//<div className="column">
+//<img src={untitled_1} id="grid_image" alt="untitled_1" />
+//<img src={fauna} id="grid_image" alt="fauna" />
+//<img src={fauna} id="grid_image" alt="fauna" />
+//</div>
+//</div>
+//</div>
 
 class App extends Component {
   render() {
@@ -28,21 +42,16 @@ class App extends Component {
           </h1>
         </div>
         <div>
-          <img src={americana} id="wallpaper_header" alt="americana" />
+          <img src={americana} id="americana" alt="americana" />
+          <img src={americana} id="americana2" alt="americana" />
+          <img src={americana} id="americana3" alt="americana" />
         </div>
-        <div className="body">
-          <div className="row" id="grid_padding">
-            <div className="column">
-              <img src={untitled_1} id="grid_image" alt="untitled_1" />
-              <img src={fauna} id="grid_image" alt="fauna" />
-              <img src={fauna} id="grid_image" alt="fauna" />
-            </div>
-            <div className="column">
-              <img src={untitled_1} id="grid_image" alt="untitled_1" />
-              <img src={fauna} id="grid_image" alt="fauna" />
-              <img src={fauna} id="grid_image" alt="fauna" />
-            </div>
+        <div className="footer">
+          <div>Peter Ahn</div>
+          <div>
+            <a href="mailto:psa395@gmail.com">psa395@gmail.com</a>
           </div>
+          <div>818.669.0174</div>
         </div>
       </div>
     );
