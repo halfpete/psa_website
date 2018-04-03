@@ -1,57 +1,73 @@
+a {
+    text-decoration: none !important;
+}
+
 #outer {
     position: fixed;
 }
 
 .header {
-    height: 100px;
-    width: 400px; /** Use 100% to fill the width of the page **/
-    position: absolute;
+    height: 80px;
+    width: 100%; /** Use 100% to fill the width of the page **/
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    margin: 0 auto;
-    background-color: rgba(0,0,255,0.2);
+    background-color: #E89ADF;
+    z-index:9; 
 }
 
 #peter_ahn {
+    position: fixed;
+    top: 8px;
+    left: 50px;
+}
+
+#peter_ahn_text {
+    color: #9FECFF;
 	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 	font-size: 28px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 26.4px;
-    position: fixed;
-    top: 8px;
-    left: 50px;
 }
 
 #about {
-	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-	font-size: 16px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	line-height: 26.4px;
     position: fixed;
     top: 8px;
     right: 120px;
 }
 
+#about_text {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26.4px;
+    color: #9FECFF;
+}
+
 #contact {
+    position: fixed; 
+    top: 8px;
+    right: 50px;
+}
+
+#contact_text {
 	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 	font-size: 16px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 26.4px;
-    position: fixed; 
-    top: 8px;
-    right: 50px;
+    color: #9FECFF;
 }
 
 #wallpaper_header {
     position: absolute;
-    top: 80px;
+    top: 100px;
     width: 95%;
     height: 55%;
     left: 50px;

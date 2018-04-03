@@ -11,29 +11,35 @@ class App extends Component {
       <div>
         <div class="header">
           <h1 id="peter_ahn">
-            <a href="">Peter Ahn</a>
+            <a href="" id="peter_ahn_text">
+              Peter Ahn
+            </a>
           </h1>
           <h1 id="about">
-            <a href="">About</a>
+            <a href="" id="about_text">
+              About
+            </a>
           </h1>
           <h1 id="contact">
-            <a href="">Contact</a>
+            <a href="" id="contact_text">
+              Contact
+            </a>
           </h1>
         </div>
         <body>
           <div>
-            <img src={americana} className="wallpaper_header" alt="americana" />
+            <img src={americana} id="wallpaper_header" alt="americana" />
           </div>
           <div class="row" id="grid_padding">
             <div class="column">
-              <img src={untitled_1} className="grid_image" alt="untitled_1" />
-              <img src={fauna} className="grid_image" alt="fauna" />
-              <img src={fauna} className="grid_image" alt="fauna" />
+              <img src={untitled_1} id="grid_image" alt="untitled_1" />
+              <img src={fauna} id="grid_image" alt="fauna" />
+              <img src={fauna} id="grid_image" alt="fauna" />
             </div>
             <div class="column">
-              <img src={untitled_1} className="grid_image" alt="untitled_1" />
-              <img src={fauna} className="grid_image" alt="fauna" />
-              <img src={fauna} className="grid_image" alt="fauna" />
+              <img src={untitled_1} id="grid_image" alt="untitled_1" />
+              <img src={fauna} id="grid_image" alt="fauna" />
+              <img src={fauna} id="grid_image" alt="fauna" />
             </div>
           </div>
         </body>
