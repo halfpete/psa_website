@@ -13,7 +13,7 @@ a {
     top: 0;
     left: 0;
     right: 0;
-    background-color: #E89ADF;
+    background-color: black;
     z-index:9; 
 }
 
@@ -47,6 +47,13 @@ a {
     font-weight: 500;
     line-height: 26.4px;
     color: #9FECFF;
+}
+
+#about_picture {
+    height: auto; 
+    width: auto; 
+    max-width: 3000px; 
+    max-height: 3000px;
 }
 
 #about_text {
