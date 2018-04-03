@@ -1,55 +1,106 @@
+a {
+    text-decoration: none !important;
+}
+
 #outer {
     position: fixed;
 }
 
 .header {
-    height: 100px;
-    width: 400px; /** Use 100% to fill the width of the page **/
-    position: absolute;
+    height: 80px;
+    width: 100%; /** Use 100% to fill the width of the page **/
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    margin: 0 auto;
-    background-color: rgba(0,0,255,0.2);
+    background-color: black;
+    z-index:9; 
 }
 
 #peter_ahn {
+    position: fixed;
+    top: 8px;
+    left: 50px;
+}
+
+#peter_ahn_header {
+    color: #9FECFF;
 	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 	font-size: 28px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 26.4px;
-    position: fixed;
-    top: 8px;
-    left: 50px;
 }
 
 #about {
-	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-	font-size: 16px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	line-height: 26.4px;
     position: fixed;
     top: 8px;
-    right: 120px;
+    right: 110px;
+}
+
+#about_header {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26.4px;
+    color: #9FECFF;
+}
+
+#about_picture {
+    height: auto; 
+    width: auto; 
+    max-width: 3000px; 
+    max-height: 3000px;
+}
+
+#about_text {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    color: #9FECFF;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #contact {
+    position: fixed; 
+    top: 8px;
+    right: 40px;
+}
+
+#contact_header {
 	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 	font-size: 16px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 26.4px;
-    position: fixed; 
-    top: 8px;
-    right: 50px;
+    color: #9FECFF;
 }
 
-#wallpaper_header {
+#contact_text {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    color: #9FECFF;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#americana {
     position: absolute;
     top: 80px;
     width: 95%;
@@ -58,14 +109,33 @@
     right: 50px;
 }
 
+#americana2 {
+    position: absolute;
+    top: 300px;
+    width: 95%;
+    height: 55%;
+    left: 50px;
+    right: 50px;
+}
+
+#americana3 {
+    position: absolute;
+    top: 600px;
+    width: 95%;
+    height: 55%;
+    left: 50px;
+    right: 50px;
+}
+
 #grid_image {
+    position: relative;
     width: 40%;
     height: 40%;
     padding: 20px;
-    top: 10px;
-    left: 10px;
-    right: 10px;
-    bottom: 10px
+    /*top: 10px;*/
+    /*left: 10px;*/
+    /*right: 10px;*/
+    /*bottom: 10px*/
 }
 
 #grid_padding {
@@ -110,8 +180,17 @@
   }
 }
 
-body {
+.body {
     -moz-transform: scale(0.8, 0.8); /* Moz-browsers */
     zoom: 0.8; /* Other non-webkit browsers */
     zoom: 80%; /* Webkit browsers */
+    padding-bottom:60px;   /* Height of the footer */
+}
+
+.footer {
+    bottom:0;
+    width:100%;
+    height: 70px;
+    left: 0;
+    position: fixed;
 }
