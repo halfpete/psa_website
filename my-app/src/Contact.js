@@ -25,7 +25,7 @@ class Contact extends Component {
         </div>
         <div id="contact_text">
           <form
-            action="mailto:someone@example.com"
+            action="mailto:psa395@gmail.com"
             method="post"
             enctype="text/plain"
           >
