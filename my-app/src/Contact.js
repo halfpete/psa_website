@@ -8,9 +8,9 @@ class Contact extends Component {
   render() {
     return (
       <div>
-        <div>
+        <Link to="/">
           <img src={website_name} id="name_header" alt="title" />
-        </div>
+        </Link>
         <div className="page_links">
           <h1 id="work">
             <Link to="/work" id="work_sub_header">

@@ -18,24 +18,18 @@ class App extends Component {
             <img src={website_name} id="name" alt="website_name" />
           </div>
           <div className="home_links">
-            <h1 id="work">
-              <Link to="/work" id="work_header">
-                Work
-              </Link>
-            </h1>
-            <h1 id="about">
-              <Link to="/about" id="about_header">
-                About
-              </Link>
-            </h1>
-            <h1 id="contact">
-              <Link to="/contact" id="contact_header">
-                Contact
-              </Link>
-            </h1>
+            <Link to="/work" id="work_header">
+              Work
+            </Link>
+            <Link to="/about" id="about_header">
+              About
+            </Link>
+            <Link to="/contact" id="contact_header">
+              Contact
+            </Link>
           </div>
           <div>
-            <img src={face} id="troll" alt="troll" />
+            <img src={face} id="face" alt="face" />
           </div>
         </div>
       </div>
