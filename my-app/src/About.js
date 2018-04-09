@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import './App.css';
 import resume from './images/resume.png';
-import about_me from './images/about_me.png';
+import about_me from './images/gif.gif';
 import about_name from './images/about_name.png';
 
 class About extends Component {
