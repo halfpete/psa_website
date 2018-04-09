@@ -18,11 +18,21 @@ a {
 }
 
 .home_links {
-    margin-top: 7%;
+    margin-top: 3%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    display: block;
+    display: flex;
+    justify-content: center;
+}
+
+.page_links {
+    margin-top: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 #peter_ahn {
@@ -49,9 +59,20 @@ a {
 }
 
 #about_header {
-    color: #D6E599;
+    color: #165B32;
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
     font-size: 28px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26.4px;
+    padding-right: 100px;
+}
+
+#about_sub_header {
+    color: #165B32;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 18px;
     font-style: normal;
     font-variant: normal;
     font-weight: 500;
@@ -84,7 +105,17 @@ a {
 }
 
 #contact_header {
-    color: #ED135E;
+    color: #CF3327;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 28px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
+#contact_sub_header {
+    color: #CF3327;
 	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 	font-size: 28px;
 	font-style: normal;
@@ -112,13 +143,25 @@ a {
 }
 
 #work_header {
-    color: #174B60;
+    color: #212440;
 	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 	font-size: 28px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 26.4px;
+    padding-right: 110px;
+}
+
+#work_sub_header {
+    color: #212440;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+    padding-right: 30px;
 }
 
 #home_image {
@@ -244,4 +287,24 @@ a {
     text-align: center;
     display: block;
     margin-top: 5%; 
+    width: 65%;
+}
+
+#name_header {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+    margin-top: 2%; 
+    width: 20%;
+}
+
+#troll {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 63px;
+    width: 700px;
 }

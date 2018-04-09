@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Row, Column } from 'react-foundation';
 import { Link } from 'react-router-dom';
-import tigerbase from './images/tigerbase.png';
 import title from './images/title image.png';
 import website_name from './images/website_name.png';
+import troll from './images/troll.png';
 import './App.css';
 
 class Home extends Component {

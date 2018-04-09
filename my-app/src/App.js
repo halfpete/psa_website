@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Row, Column } from 'react-foundation';
 import { Link } from 'react-router-dom';
-import tigerbase from './images/tigerbase.png';
 import title from './images/title image.png';
-import website_name from './images/website_name.png';
+import face from './images/face.png';
+import website_name from './images/website_name2.png';
 import './App.css';
 
 class App extends Component {
@@ -33,6 +33,9 @@ class App extends Component {
                 Contact
               </Link>
             </h1>
+          </div>
+          <div>
+            <img src={face} id="troll" alt="troll" />
           </div>
         </div>
       </div>
