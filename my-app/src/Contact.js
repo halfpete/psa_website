@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import website_name from './images/website_name2.png';
+import website_name from './images/websitename2.png';
+import whats_gucci from './images/whats_gucci.png';
 import './App.css';
 
 class Contact extends Component {
@@ -22,23 +23,28 @@ class Contact extends Component {
             </Link>
           </h1>
         </div>
-        <div id="contact_text">
+        <div>
+          <img src={whats_gucci} id="contact_image" alt="whats_gucci" />
+        </div>
+        <div id="contact">
           <form
             action="mailto:psa395@gmail.com"
             method="post"
             enctype="text/plain"
           >
-            <div>
-              Name:
-              <input type="text" name="name" />
+            <div id="contact_name">
+              <input type="text" name="name" placeholder="name" />
             </div>
-            <div>
-              E-mail:
-              <input type="text" name="mail" />
+            <div id="contact_email">
+              <input type="text" name="mail" placeholder="email" />
             </div>
-            <div>
-              Comment:
-              <input type="text" name="comment" className="set-width" />
+            <div id="contact_comment">
+              <textarea
+                type="text"
+                name="comment"
+                id="contact_text"
+                className="set-width"
+              />
             </div>
             <div>
               <input type="submit" value="Send" />

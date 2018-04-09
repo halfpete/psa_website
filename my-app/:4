@@ -300,68 +300,18 @@ a {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 25px;
     text-align: center;
-    width: 330px;
+    width: 400px;
 }
 
 #contact_name {
-    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-variant: normal;
-    color: #212440;
 
 }
 
 #contact_email {
-    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-variant: normal;
-    color: #212440;
 
 }
 
 #contact_comment {
-    padding-top: 10px;
-    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-variant: normal;
-    color: #212440;
-}
 
-#contact_text {
-    width: 20%;
-    height: 150px;
-    box-sizing: border-box;
-    resize: none;
-}
-
-#contact {
-    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-variant: normal;
-    color: #9FECFF;
-    text-align: center;
-    position: relative;
-    padding-top: 320px; 
-    left: 50%;
-    transform: translate(-50%, -50%);
-    /* Children should be oriented vertically */
-    box-orient: vertical;           /* As specified */
-    -moz-box-orient: vertical;      /* Mozilla */
-    -webkit-box-orient: vertical;   /* WebKit */
-
-    /* Align children to the horizontal center of this box */
-    box-align: center;              /* As specified */
-    -moz-box-align: center;         /* Mozilla */
-    -webkit-box-align: center;      /* WebKit */
-        
-    /* Pack children to the bottom of this box */
-    box-pack: end;                  /* As specified */
-    -moz-box-pack: end;             /* Mozilla */
-    -webkit-box-pack: end;          /* WebKit */
 }

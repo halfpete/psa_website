@@ -3,7 +3,7 @@ import { Row, Column } from 'react-foundation';
 import { Link } from 'react-router-dom';
 import title from './images/title image.png';
 import face from './images/face.png';
-import website_name from './images/website_name2.png';
+import website_name from './images/websitename2.png';
 import './App.css';
 
 class App extends Component {
