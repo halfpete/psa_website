@@ -58,6 +58,10 @@ a {
     position: relative;
 }
 
+#about_background {
+    background-color: #f74308;
+}
+
 #about_header {
     color: #165B32;
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
@@ -77,6 +81,8 @@ a {
     font-variant: normal;
     font-weight: 500;
     line-height: 26.4px;
+    padding-top: 20px;
+    padding-right: 30px;
 }
 
 #about_picture {
@@ -119,11 +125,12 @@ a {
 #contact_sub_header {
     color: #CF3327;
 	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-	font-size: 28px;
+	font-size: 18px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 26.4px;
+    padding-top: 20px;
 }
 
 #work {
@@ -149,6 +156,7 @@ a {
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 26.4px;
+    padding-top: 20px;
     padding-right: 30px;
 }
 
@@ -173,7 +181,7 @@ a {
 
 #grid_padding {
     position: relative;
-    top: 150px;
+    top: 40px;
     left: 150px;
 }
 

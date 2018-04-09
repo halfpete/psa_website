@@ -12,16 +12,12 @@ class Contact extends Component {
           <img src={website_name} id="name_header" alt="title" />
         </Link>
         <div className="page_links">
-          <h1 id="work">
-            <Link to="/work" id="work_sub_header">
-              Work
-            </Link>
-          </h1>
-          <h1 id="about">
-            <Link to="/about" id="about_sub_header">
-              About
-            </Link>
-          </h1>
+          <Link to="/work" id="work_sub_header">
+            Work
+          </Link>
+          <Link to="/about" id="about_sub_header">
+            About
+          </Link>
         </div>
         <div>
           <img src={whats_gucci} id="contact_image" alt="whats_gucci" />

@@ -8,7 +8,7 @@ import about_name from './images/about_name.png';
 class About extends Component {
   render() {
     return (
-      <div>
+      <div id="about_background">
         <Link to="/">
           <img src={about_name} id="about_name" alt="title" />
         </Link>
