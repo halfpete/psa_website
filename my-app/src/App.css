@@ -13,7 +13,7 @@ a {
     top: 0;
     left: 0;
     right: 0;
-    background-color: black;
+    background-color: white;
     z-index:9; 
 }
 
@@ -24,7 +24,7 @@ a {
 }
 
 #peter_ahn_header {
-    color: #9FECFF;
+    color: #80D3FF;
 	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 	font-size: 28px;
 	font-style: normal;
@@ -40,13 +40,13 @@ a {
 }
 
 #about_header {
+    color: #80D3FF;
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-variant: normal;
     font-weight: 500;
     line-height: 26.4px;
-    color: #9FECFF;
 }
 
 #about_picture {
@@ -77,13 +77,13 @@ a {
 }
 
 #contact_header {
+    color: #80D3FF;
 	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 	font-size: 16px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 26.4px;
-    color: #9FECFF;
 }
 
 #contact_text {
@@ -171,4 +171,5 @@ a {
     height: 70px;
     left: 0;
     position: fixed;
+    background-color: black;
 }

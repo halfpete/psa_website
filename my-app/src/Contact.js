@@ -8,7 +8,7 @@ class Contact extends Component {
       <div>
         <div className="header">
           <h1 id="peter_ahn">
-            <Link to="/" id="peter_ahn_header">
+            <Link to="/home" id="peter_ahn_header">
               Peter Ahn
             </Link>
           </h1>
