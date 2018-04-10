@@ -5,17 +5,6 @@ import website_name from './images/websitename2.png';
 import americana from './images/americana.png';
 import fauna from './images/fauna.jpg';
 import untitled_1 from './images/Untitled-1.jpg';
-import book10 from './images/book/Book master10.png';
-import book11 from './images/book/Book master11.png';
-import book12 from './images/book/Book master12.png';
-import book13 from './images/book/Book master13.png';
-import book14 from './images/book/Book master14.png';
-import book15 from './images/book/Book master15.png';
-import book16 from './images/book/Book master16.png';
-import book17 from './images/book/Book master17.png';
-import book18 from './images/book/Book master18.png';
-import book19 from './images/book/Book master19.png';
-import book20 from './images/book/Book master20.png';
 import './App.css';
 
 class Work extends Component {

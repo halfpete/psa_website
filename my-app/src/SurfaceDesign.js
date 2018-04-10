@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import { Row, Column } from 'react-foundation';
 import { Link } from 'react-router-dom';
 import website_name from './images/websitename2.png';
+import book1 from './images/book/Book master.png';
+import nikes from './images/nikes.png';
+import shirts from './images/shirts.png';
 import './App.css';
 
 class SurfaceDesign extends Component {
@@ -19,7 +22,21 @@ class SurfaceDesign extends Component {
             Contact
           </Link>
         </div>
-        <div />
+        <div className="row" id="grid_padding">
+          <div className="column">
+            <Link to="/collection_book">
+              <img src={book1} id="grid_image" alt="book1" />
+            </Link>
+            <Link to="/nikes">
+              <img src={nikes} id="grid_image" alt="nikes" />
+            </Link>
+          </div>
+          <div className="column">
+            <Link to="/shirts">
+              <img src={shirts} id="grid_image_2" alt="shirts" />
+            </Link>
+          </div>
+        </div>
       </div>
     );
   }
