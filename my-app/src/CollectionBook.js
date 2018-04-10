@@ -56,7 +56,7 @@ class CollectionBook extends Component {
             Contact
           </Link>
         </div>
-        <div className="row" id="grid_padding">
+        <div className="row" id="book_padding">
           <div className="column">
             <img src={book1} id="book_image" alt="book1" />
             <img src={book2} id="book_image" alt="book2" />

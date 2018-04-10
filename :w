@@ -1,0 +1,525 @@
+a {
+    text-decoration: none !important;
+}
+
+#outer {
+    position: fixed;
+}
+
+.header {
+    height: 80px;
+    width: 100%; /** Use 100% to fill the width of the page **/
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index:9; 
+}
+
+.home_links {
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.page_links {
+    margin-top: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#peter_ahn {
+    position: relative;
+    top: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#peter_ahn_header {
+    color: #80D3FF;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 28px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
+#about {
+    position: relative;
+}
+
+#about_background {
+    background-color: #f74308;
+}
+
+#about_header {
+    color: #165B32;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26.4px;
+    padding-right: 100px;
+}
+
+#about_picture {
+    height: auto; 
+    width: auto; 
+    max-width: 3000px; 
+    max-height: 3000px;
+    top: 0px;
+}
+
+#about_text {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    color: #9FECFF;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    padding-bottom: 30px;
+    transform: translate(-50%, -50%);
+}
+
+#contact {
+    position: relative; 
+}
+
+#contact_header {
+    color: #CF3327;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 28px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
+#first_sub_header {
+    color: #212440;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+    padding-top: 20px;
+    padding-right: 80px;
+}
+
+#second_sub_header {
+    color: #CF3327;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+    padding-top: 20px;
+}
+
+#work {
+    position: relative;
+}
+
+#work_header {
+    color: #212440;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 28px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+    padding-right: 110px;
+}
+
+#home_image {
+    position: relative;
+    top: 80px;
+    height: auto; 
+    width: auto; 
+    max-width: 600px; 
+    max-height: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#grid_image {
+    position: relative;
+    float: left;
+    width: 49%;
+    max-width: 900px; 
+    max-height: 1350px;
+}
+
+#grid_image_2 {
+    position: relative;
+    float: left;
+    width: 49%;
+    max-width: 900px; 
+    max-height: 1350px;
+    padding-top: 50px;
+}
+
+#grid_image_3 {
+    position: relative;
+    float: left;
+    width: 49%;
+    max-width: 400px; 
+    max-height: 350px;
+    padding-top: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#book_image {
+    position: relative;
+    margin-left: auto; 
+    margin-right: auto;
+    max-width: 1300px; 
+    max-height: 1500px;
+    -moz-box-shadow: 5px 5px 5px black;
+    -webkit-box-shadow: 5px 5px 5px black;
+    box-shadow: 5 5 5px black;
+}
+
+#grid_padding {
+    position: relative;
+    padding-top: 80px;
+    padding-left: 120px;
+    display: inline-block;
+}
+
+#book_padding {
+    position: relative;
+    padding-top: 50px;
+    padding-left: 250px;
+    display: inline-block;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  max-width: 90%;
+  padding: 0 20px;
+  padding-top: 30px;
+}
+
+.column img {
+  position: relative;
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.body {
+    -moz-transform: scale(0.8, 0.8); /* Moz-browsers */
+    zoom: 0.8; /* Other non-webkit browsers */
+    zoom: 80%; /* Webkit browsers */
+    padding-bottom: 50px;
+}
+
+.footer {
+    display: none;
+    bottom:0;
+    width: 100%;
+    height: 70px;
+    left: 0;
+    position: fixed;
+    background-color: black;
+}
+
+
+#title_image {
+    height: auto; 
+    width: auto; 
+    max-width: 700px; 
+    max-height: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    margin-top: -100px; /* Negative half of height. */
+    margin-left: -350px; /* Negative half of width. */
+}
+
+.base {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
+#page_wrap {
+    position: absolute;
+    top: 1000px;
+    width: 100%;
+    height: 100%;
+    margin: 10px auto;
+    padding: 20px;
+    background: white;
+    -moz-box-shadow: 0 0 20px black;
+    -webkit-box-shadow: 0 0 20px black;
+    box-shadow: 0 0 20px black;
+}
+
+#name {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+    margin-top: 5%; 
+    width: 65%;
+}
+
+#name_header {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+    margin-top: 2%; 
+    width: 20%;
+}
+
+#about_name {
+    margin-left: 40%;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+    margin-top: 2%; 
+    width: 20%;
+    z-index:2;
+    position: absolute;
+}
+
+#face {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 84px;
+    width: 700px;
+}
+
+#contact_image {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    text-align: center;
+    width: 330px;
+}
+
+#contact_name {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    color: #212440;
+
+}
+
+#contact_email {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    color: #212440;
+
+}
+
+#contact_comment {
+    padding-top: 10px;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    color: #212440;
+}
+
+#contact_text {
+    width: 20%;
+    height: 150px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+#contact {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    color: #9FECFF;
+    text-align: center;
+    position: relative;
+    padding-top: 320px; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Children should be oriented vertically */
+    box-orient: vertical;           /* As specified */
+    -moz-box-orient: vertical;      /* Mozilla */
+    -webkit-box-orient: vertical;   /* WebKit */
+
+    /* Align children to the horizontal center of this box */
+    box-align: center;              /* As specified */
+    -moz-box-align: center;         /* Mozilla */
+    -webkit-box-align: center;      /* WebKit */
+        
+    /* Pack children to the bottom of this box */
+    box-pack: end;                  /* As specified */
+    -moz-box-pack: end;             /* Mozilla */
+    -webkit-box-pack: end;          /* WebKit */
+}
+
+#resume {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    color: #9FECFF;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.work_links {
+    margin-top: 4%;
+    margin-left: 10%;
+    margin-right: auto;
+    position: relative;
+    float: left;
+}
+
+#surface_design_title {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    color: #212440;
+    padding-top: 30px;
+}
+
+#surface_design_title_text {
+    color: #1F2440; 
+}
+
+#print_making_title {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    color: #212440;
+    padding-top: 50px;
+}
+
+#print_making_title_text {
+    color: #155B33; 
+}
+#illustration_title {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    color: #212440;
+    padding-top: 50px;
+}
+
+#illustration_title_text {
+    color: #D03127;
+}
+
+#other_title {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    color: #212440;
+    padding-top: 50px;
+}
+
+#other_title_text {
+    color: #DBD5CF;
+}
+
+#nikes_image {
+    display: flex;
+    justify-content: center;
+    max-width: 900;
+    max-height: 600px;
+    padding-top: 71px;
+}
+
+#nikes_second_row {
+    display: flex;
+    justify-content: center;
+}
+
+
+#shirts_image {
+    max-width: 1000px;
+    max-height: 800px;
+    padding-top: 40px;
+}
+
+#shirts {
+    display: flex;
+    justify-content: center;
+}
+
+
+#fauna_image {
+    width: 500px;
+    height: 200px;
+}
+
+
+#padding_bot { 
+    padding-bottom: 50px;
+}

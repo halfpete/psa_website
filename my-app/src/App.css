@@ -206,6 +206,12 @@ a {
     display: inline-block;
 }
 
+#book_padding {
+    position: relative;
+    padding-top: 50px;
+    padding-left: 250px;
+    display: inline-block;
+}
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -487,10 +493,36 @@ a {
     justify-content: center;
     max-width: 900;
     max-height: 600px;
-    padding-top: 70px;
+    padding-top: 71px;
 }
 
 #nikes_second_row {
     display: flex;
     justify-content: center;
+}
+
+
+#shirts_image {
+    max-width: 1000px;
+    max-height: 800px;
+    padding-top: 40px;
+}
+
+#shirts {
+    display: flex;
+    justify-content: center;
+}
+
+
+#fauna_image {
+    display: flex;
+    justify-content: center;
+    max-width: 1000;
+    max-height: 700px;
+    padding-top: 50px;
+}
+
+
+#padding_bot { 
+    padding-bottom: 50px;
 }

@@ -7,7 +7,7 @@ import nikes from './images/nikes.png';
 import shoe_coordinate from './images/shoe_coordinate.png';
 import './App.css';
 
-class CollectionBook extends Component {
+class Nikes extends Component {
   render() {
     return (
       <div>
@@ -34,4 +34,4 @@ class CollectionBook extends Component {
   }
 }
 
-export default CollectionBook;
+export default Nikes;
