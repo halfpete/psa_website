@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import website_name from './images/websitename2.png';
 import whats_gucci from './images/whats_gucci.png';
 import './App.css';
+//https://github.com/dwyl/learn-to-send-email-via-google-script-html-no-server#how
 
 class Contact extends Component {
   render() {
