@@ -7,6 +7,10 @@ import Home from './Home';
 import Work from './Work';
 import About from './About';
 import Contact from './Contact';
+import SurfaceDesign from './SurfaceDesign';
+import PrintMaking from './PrintMaking';
+import Illustration from './Illustration';
+import Other from './Other';
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
@@ -17,6 +21,10 @@ ReactDOM.render(
       <Route path="/work" component={Work} />
       <Route path="/about" component={About} />
       <Route path="/contact" component={Contact} />
+      <Route path="/surface_design" component={SurfaceDesign} />
+      <Route path="/print_making" component={PrintMaking} />
+      <Route path="/illustration" component={Illustration} />
+      <Route path="/other" component={Other} />
     </Switch>
   </BrowserRouter>,
   document.getElementById('root')

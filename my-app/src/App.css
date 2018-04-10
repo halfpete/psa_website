@@ -73,18 +73,6 @@ a {
     padding-right: 100px;
 }
 
-#about_sub_header {
-    color: #165B32;
-    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 500;
-    line-height: 26.4px;
-    padding-top: 20px;
-    padding-right: 30px;
-}
-
 #about_picture {
     height: auto; 
     width: auto; 
@@ -122,7 +110,19 @@ a {
 	line-height: 26.4px;
 }
 
-#contact_sub_header {
+#first_sub_header {
+    color: #212440;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+    padding-top: 20px;
+    padding-right: 80px;
+}
+
+#second_sub_header {
     color: #CF3327;
 	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 	font-size: 18px;
@@ -146,18 +146,6 @@ a {
 	font-weight: 500;
 	line-height: 26.4px;
     padding-right: 110px;
-}
-
-#work_sub_header {
-    color: #212440;
-	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-	font-size: 18px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 500;
-	line-height: 26.4px;
-    padding-top: 20px;
-    padding-right: 30px;
 }
 
 #home_image {
@@ -399,4 +387,63 @@ a {
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.work_links {
+    margin-top: 4%;
+    margin-left: 10%;
+    margin-right: auto;
+    position: relative;
+    float: left;
+}
+
+#surface_design_title {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    color: #212440;
+    padding-top: 30px;
+}
+
+#surface_design_title_text {
+    color: #1F2440; 
+}
+
+#print_making_title {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    color: #212440;
+    padding-top: 50px;
+}
+
+#print_making_title_text {
+    color: #155B33; 
+}
+#illustration_title {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    color: #212440;
+    padding-top: 50px;
+}
+
+#illustration_title_text {
+    color: #D03127;
+}
+
+#other_title {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    color: #212440;
+    padding-top: 50px;
+}
+
+#other_title_text {
+    color: #DBD5CF;
 }

@@ -26,31 +26,33 @@ class Work extends Component {
           <img src={website_name} id="name_header" alt="title" />
         </Link>
         <div className="page_links">
-          <Link to="/about" id="about_sub_header">
+          <Link to="/about" id="first_sub_header">
             About
           </Link>
-          <Link to="/contact" id="contact_sub_header">
+          <Link to="/contact" id="second_sub_header">
             Contact
           </Link>
         </div>
-        <div className="row" id="grid_padding">
-          <div className="column">
-            <img src={book14} id="grid_image" alt="untitled_1" />
-            <img src={americana} id="grid_image" alt="fauna" />
-            <img src={book15} id="grid_image" alt="fauna" />
-            <img src={book16} id="grid_image" alt="fauna" />
+        <div className="work_links">
+          <div id="surface_design_title">
+            <Link to="/surface_design" id="surface_design_title_text">
+              Surface Design
+            </Link>
           </div>
-          <div className="column">
-            <img src={book17} id="grid_image" alt="untitled_1" />
-            <img src={book18} id="grid_image" alt="fauna" />
-            <img src={book19} id="grid_image" alt="fauna" />
-            <img src={book20} id="grid_image" alt="fauna" />
+          <div id="print_making_title">
+            <Link to="/print_making" id="print_making_title_text">
+              Print Making
+            </Link>
           </div>
-          <div className="column">
-            <img src={book10} id="grid_image" alt="untitled_1" />
-            <img src={book11} id="grid_image" alt="fauna" />
-            <img src={book12} id="grid_image" alt="fauna" />
-            <img src={book13} id="grid_image" alt="fauna" />
+          <div id="illustration_title">
+            <Link to="/illustration" id="illustration_title_text">
+              Illustration
+            </Link>
+          </div>
+          <div id="other_title">
+            <Link to="/other" id="other_title_text">
+              Other
+            </Link>
           </div>
         </div>
       </div>

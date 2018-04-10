@@ -12,10 +12,10 @@ class Contact extends Component {
           <img src={website_name} id="name_header" alt="title" />
         </Link>
         <div className="page_links">
-          <Link to="/work" id="work_sub_header">
+          <Link to="/work" id="first_sub_header">
             Work
           </Link>
-          <Link to="/about" id="about_sub_header">
+          <Link to="/about" id="second_sub_header">
             About
           </Link>
         </div>
