@@ -590,6 +590,19 @@ a {
     font-style: normal;
     font-variant: normal;
     color: #212440;
+    padding-top: 30px;
+    text-align: center;
+    display: inline-block;
+    width: 400px;
+}
+
+
+#collection_title {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    color: #212440;
     padding-top: 60px;
     text-align: center;
     display: inline-block;
