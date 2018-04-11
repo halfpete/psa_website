@@ -438,6 +438,17 @@ a {
     visibility: visible;
 }
 
+#home_resume {
+    position: absolute;
+    margin-left: 82.8%;
+    margin-right: auto;
+    top: 190px;
+    z-index: 1;
+    visibility: visible;
+    font-size:36px;
+    color: black;
+}
+
 #logo {
     max-width: 40px;
     max-height: 40px;

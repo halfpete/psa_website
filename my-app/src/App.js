@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import title from './images/title image.png';
 import face from './images/face.png';
 import website_name from './images/websitename2.png';
+import resume from './images/resume.png';
 import './App.css';
 
 class App extends Component {
@@ -21,6 +22,11 @@ class App extends Component {
           <div id="padding-10px">
             <div>
               <img src={website_name} id="name" alt="website_name" />
+            </div>
+            <div id="home_resume">
+              <a href={resume} target="_blank">
+                <i className="fa fa-registered" id="instagram" />
+              </a>
             </div>
             <div>
               <a href="https://www.instagram.com/psahns/">
