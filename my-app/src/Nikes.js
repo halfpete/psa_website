@@ -22,6 +22,19 @@ class Nikes extends Component {
             Contact
           </Link>
         </div>
+        <div id="centered">
+          <div id="surface_design_work_title">"Nostalgia"</div>
+        </div>
+        <div id="centered">
+          <div id="surface_design_work_text">
+            "A pattern and illustration created from the concept of nostalgia
+            and what the Americana on Brand meant to me. In my youth, the
+            Americana on Brand served as a prominent memory filled with growing
+            pains and happiness. The repeat design is a bird's eye view of the
+            Americana itself; and the accompanying coordinate pattern depicts
+            the top view of a stereotypical mall store."
+          </div>
+        </div>
         <div id="nikes_image">
           <img src={nikes} id="grid_image" alt="nikes" />
         </div>

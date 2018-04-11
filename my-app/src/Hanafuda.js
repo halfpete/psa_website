@@ -21,6 +21,16 @@ class Hanafuda extends Component {
           </Link>
         </div>
         <div id="centered">
+          <div id="surface_design_work_title">"Hanafuda"</div>
+        </div>
+        <div id="centered">
+          <div id="surface_design_work_text">
+            "Hanafuda is an intaglio print that represent memories of family
+            gatherings. I have vivid recollections of my family members enjoying
+            each others company and playing games of Go-Stop"
+          </div>
+        </div>
+        <div id="centered">
           <div id="padding_top-50px">
             <img src={hanafuda} id="hyperdrive_image" alt="hanafuda" />
           </div>

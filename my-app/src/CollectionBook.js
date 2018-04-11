@@ -57,10 +57,10 @@ class CollectionBook extends Component {
           </Link>
         </div>
         <div id="centered">
-          <div id="collection_title">"Collections"</div>
+          <div id="surface_design_work_title">"Collections"</div>
         </div>
         <div id="centered">
-          <div id="collection_text">
+          <div id="surface_design_work_text">
             "A collection book of patterns and designs inspired by shapes
             intended for fabrics and textiles. Created for Color Trends 2017
             with the 2017 color trend forecasts in mind."
