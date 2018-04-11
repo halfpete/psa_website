@@ -583,3 +583,15 @@ a {
     max-width: 900px;
     max-height: 900px;
 }
+
+#collection_text {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    color: #212440;
+    padding-top: 60px;
+    text-align: center;
+    display: inline-block;
+    width: 400px;
+}
