@@ -564,3 +564,13 @@ a {
     font-size:36px;
     color: black;
 }
+
+#print_making_image {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+#centered {
+    display: flex;
+    justify-content: center;
+}

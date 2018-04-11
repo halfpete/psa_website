@@ -2,7 +2,10 @@ import React, { Component } from 'react';
 import { Row, Column } from 'react-foundation';
 import { Link } from 'react-router-dom';
 import website_name from './images/websitename2.png';
-import fauna from './images/fauna.jpg';
+import hyperdrive1 from './images/hyperdrive 1.png';
+import hyperdrive2 from './images/hyperdrive 2.png';
+import hyperdrive3 from './images/hyperdrive 3.png';
+import hanafuda from './images/hanafuda.png';
 import './App.css';
 
 class PrintMaking extends Component {
@@ -20,8 +23,15 @@ class PrintMaking extends Component {
             Contact
           </Link>
         </div>
-        <div id="fauna_image">
-          <img src={fauna} id="fauna_image" alt="fauna" />
+        <div>
+          <div id="centered">
+            <img src={hyperdrive1} id="print_making_image" alt="hyperdrive1" />
+            <img src={hyperdrive2} id="print_making_image" alt="hyperdrive1" />
+          </div>
+          <div id="centered">
+            <img src={hyperdrive3} id="print_making_image" alt="hyperdrive1" />
+            <img src={hanafuda} id="print_making_image" alt="hanafuda" />
+          </div>
         </div>
       </div>
     );
