@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Row, Column } from 'react-foundation';
 import { Link } from 'react-router-dom';
+import resume from './images/resume.png';
 import website_name from './images/websitename2.png';
 import americana from './images/americana.png';
 import fauna from './images/fauna.jpg';
@@ -18,6 +19,11 @@ class Work extends Component {
         <Link to="/">
           <img src={website_name} id="name_header" alt="title" />
         </Link>
+        <div id="resume">
+          <a href={resume} target="_blank">
+            <i className="fa fa-registered" id="instagram" />
+          </a>
+        </div>
         <div>
           <a href="https://www.instagram.com/psahns/">
             <i className="fa fa-instagram" id="instagram" />

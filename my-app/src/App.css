@@ -430,17 +430,17 @@ a {
 }
 
 #resume {
-    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-variant: normal;
-    color: #9FECFF;
-    text-align: center;
-    margin: 0;
     position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin-left: 92%;
+    margin-right: auto;
+    top: 0px;
+    z-index: 1;
+    visibility: visible;
+}
+
+#logo {
+    max-width: 40px;
+    max-height: 40px;
 }
 
 .work_links {

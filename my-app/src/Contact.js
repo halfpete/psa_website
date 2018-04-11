@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import resume from './images/resume.png';
 import website_name from './images/websitename2.png';
 import whats_gucci from './images/whats_gucci.png';
 import './App.css';
@@ -16,6 +17,11 @@ class Contact extends Component {
         <Link to="/">
           <img src={website_name} id="name_header" alt="title" />
         </Link>
+        <div id="resume">
+          <a href={resume} target="_blank">
+            <i className="fa fa-registered" id="instagram" />
+          </a>
+        </div>
         <div>
           <a href="https://www.instagram.com/psahns/">
             <i className="fa fa-instagram" id="instagram" />

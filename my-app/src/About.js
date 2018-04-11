@@ -40,7 +40,7 @@ class About extends Component {
         </div>
         <div id="resume">
           <a href={resume} target="_blank">
-            Resume Available Here
+            <i className="fa fa-registered" id="instagram" />
           </a>
         </div>
       </div>
