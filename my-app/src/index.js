@@ -17,7 +17,7 @@ import Other from './Other';
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/psa_website">
     <Switch>
       <Route exact path="/" component={App} />
       <Route path="/home" component={Home} />
