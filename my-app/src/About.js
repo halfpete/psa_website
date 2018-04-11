@@ -9,9 +9,18 @@ class About extends Component {
   render() {
     return (
       <div id="about_background">
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
         <Link to="/">
           <img src={about_name} id="about_name" alt="title" />
         </Link>
+        <div>
+          <a href="https://www.instagram.com/psahns/">
+            <i className="fa fa-instagram" id="instagram" />
+          </a>
+        </div>
         <div className="about_links">
           <Link to="/work" id="first_sub_header">
             Work

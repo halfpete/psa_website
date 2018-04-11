@@ -9,9 +9,18 @@ class Contact extends Component {
   render() {
     return (
       <div>
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
         <Link to="/">
           <img src={website_name} id="name_header" alt="title" />
         </Link>
+        <div>
+          <a href="https://www.instagram.com/psahns/">
+            <i className="fa fa-instagram" id="instagram" />
+          </a>
+        </div>
         <div className="page_links">
           <Link to="/work" id="first_sub_header">
             Work
