@@ -347,14 +347,14 @@ a {
 }
 
 #face {
-    position: relative;
+    position: absolute;
     display: block;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    padding-top: 84px;
-    width: 700px;
+    left: 500px;
     bottom: 0px;
+    width: 700px;
 }
 
 #contact_image {
