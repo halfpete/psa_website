@@ -25,12 +25,32 @@ class PrintMaking extends Component {
         </div>
         <div>
           <div id="centered">
-            <img src={hyperdrive1} id="print_making_image" alt="hyperdrive1" />
-            <img src={hyperdrive2} id="print_making_image" alt="hyperdrive1" />
+            <Link to="/hyperdrive1">
+              <img
+                src={hyperdrive1}
+                id="print_making_image"
+                alt="hyperdrive1"
+              />
+            </Link>
+            <Link to="/hyperdrive2">
+              <img
+                src={hyperdrive2}
+                id="print_making_image"
+                alt="hyperdrive2"
+              />
+            </Link>
           </div>
           <div id="centered">
-            <img src={hyperdrive3} id="print_making_image" alt="hyperdrive1" />
-            <img src={hanafuda} id="print_making_image" alt="hanafuda" />
+            <Link to="/hyperdrive3">
+              <img
+                src={hyperdrive3}
+                id="print_making_image"
+                alt="hyperdrive3"
+              />
+            </Link>
+            <Link to="/hanafuda">
+              <img src={hanafuda} id="print_making_image" alt="hanafuda" />
+            </Link>
           </div>
         </div>
       </div>

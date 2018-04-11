@@ -541,6 +541,10 @@ a {
     padding-bottom: 50px;
 }
 
+#padding_top-50px {
+    padding-top: 50px;
+}
+
 #instagram {
     position: absolute;
     margin-left: 95%;
@@ -573,4 +577,9 @@ a {
 #centered {
     display: flex;
     justify-content: center;
+}
+
+#hyperdrive_image {
+    max-width: 900px;
+    max-height: 900px;
 }

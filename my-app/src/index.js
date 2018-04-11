@@ -13,6 +13,10 @@ import Shirts from './Shirts';
 import PrintMaking from './PrintMaking';
 import Illustration from './Illustration';
 import Other from './Other';
+import Hyperdrive1 from './Hyperdrive1';
+import Hyperdrive2 from './Hyperdrive2';
+import Hyperdrive3 from './Hyperdrive3';
+import Hanafuda from './Hanafuda';
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
@@ -29,6 +33,10 @@ ReactDOM.render(
       <Route path="/print_making" component={PrintMaking} />
       <Route path="/illustration" component={Illustration} />
       <Route path="/other" component={Other} />
+      <Route path="/hyperdrive1" component={Hyperdrive1} />
+      <Route path="/hyperdrive2" component={Hyperdrive2} />
+      <Route path="/hyperdrive3" component={Hyperdrive3} />
+      <Route path="/hanafuda" component={Hanafuda} />
     </Switch>
   </BrowserRouter>,
   document.getElementById('root')
